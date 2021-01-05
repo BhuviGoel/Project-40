@@ -56,7 +56,7 @@ class Game{
             text(allPlayers.player1.name+": " +allPlayers.player1.score,50,50); 
             text(allPlayers.player2.name+": " + allPlayers.player2.score, 50, 100); 
             
-            if (allPlayers.player1.score===100 || allplayers.player2.score===100){
+            if (allPlayers.player1.score===100 || allPlayers.player2.score===100){
                 gameState=2}
     
         }
